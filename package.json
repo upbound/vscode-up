@@ -1,0 +1,61 @@
+{
+ "name": "up",
+ "displayName": "Up",
+ "preview": true,
+ "publisher": "upbound",
+ "version": "0.0.1-dev",
+ "description": "Crossplane package support for Visual Studio Code",
+ "main": "./out/extension.js",
+ "repository": {
+  "type": "git",
+  "url": "github.com/upbound/up"
+ },
+ "activationEvents": [
+  "onLanguage:yaml"
+ ],
+ "engines": {
+  "vscode": "^1.52.0"
+ },
+ "categories": [
+  "Programming Languages",
+  "Linters",
+  "Formatters"
+ ],
+ "contributes": {
+  "configuration": {
+   "type": "object",
+   "title": "xpls",
+   "properties": {
+    "xpls.maxNumberOfProblems": {
+     "scope": "resource",
+     "type": "number",
+     "default": 100,
+     "description": "Controls the maximum number of problems produced by the server."
+    },
+    "xpls.trace.server": {
+     "scope": "window",
+     "type": "string",
+     "enum": [
+      "off",
+      "messages",
+      "verbose"
+     ],
+     "default": "verbose",
+     "description": "Traces the communication between VS Code and the language server."
+    }
+   }
+  }
+ },
+ "author": "Upbound",
+ "license": "Apache-2.0",
+ "dependencies": {
+  "vscode-languageclient": "^6.1.3"
+ },
+ "devDependencies": {
+  "@types/node": "^10.1.4",
+  "@types/vscode": "^1.35.0",
+  "typescript": "^3.9.10",
+  "vsce": "^1.58.0",
+  "vscode": "^1.1.35"
+ }
+}
