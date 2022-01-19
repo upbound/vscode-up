@@ -1,4 +1,5 @@
 {
+ "icon": "media/logo.png",
  "name": "up",
  "displayName": "Up",
  "preview": true,
@@ -8,7 +9,10 @@
  "main": "./out/extension.js",
  "repository": {
   "type": "git",
-  "url": "github.com/upbound/up"
+  "url": "https://github.com/upbound/vscode-up"
+ },
+ "bugs": {
+  "url": "https://github.com/upbound/vscode-up/issues"
  },
  "activationEvents": [
   "onLanguage:yaml"
