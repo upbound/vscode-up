@@ -4,7 +4,7 @@
 ## Getting Started
 
 Welcome! 👋🏻<br/>
-Whether you are new to Crossplane package authoriing or an experienced Crossplane 
+Whether you are new to Crossplane package authoring or an experienced Crossplane 
 operator, we hope this extension enhances your development experience.
 
 * **Step 1.** If you haven't done so already, install the latest version of [Up](https://github.com/upbound/up)
@@ -15,7 +15,7 @@ operator, we hope this extension enhances your development experience.
 
 
 ## Features
-This extension currently provides diagnostics as you work through its integation 
+This extension currently provides diagnostics as you work, through its integation 
 with [`xpls`]. You can see overviews of the various features currently available
 below:
 
@@ -56,13 +56,13 @@ by [filing an issue],
 or by asking a question on [Slack]
 
 ## Contributing
-See CONTRIBUTING.md
+See [CONTRIBUTING.md]
 
 ## License
-
 [Apache 2.0 license](LICENSE)
 
 <!-- Named Links -->
+[CONTRIBUTING.md]: CONTRIBUTING.md
 [filing an issue]: https://github.com/upbound/vscode-up/issues/new/choose
 [starting a GitHub discussion]: https://github.com/upbound/vscode-up/discussions
 [LICENSE]: LICENSE
@@ -70,7 +70,3 @@ See CONTRIBUTING.md
 [Slack]: https://crossplane.slack.com/messages/upbound/
 [VS Code Up extension]: tbd
 [`xpls`]: https://github.com/upbound/up
-
-https://github.com/upbound/vscode-up/issues
-
-https://github.com/upbound/vscode-up/discussions
