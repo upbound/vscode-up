@@ -6,7 +6,7 @@
  "publisher": "upbound",
  "version": "0.0.1-dev",
  "description": "Crossplane package support for Visual Studio Code",
- "main": "./out/extension.js",
+ "main": "./dist/extension.js",
  "repository": {
   "type": "git",
   "url": "https://github.com/upbound/vscode-up"
@@ -25,6 +25,14 @@
   "Linters",
   "Formatters"
  ],
+ "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "bundle": "esbuild extension.ts --bundle --outdir=dist --external:vscode --format=cjs --platform=node",
+    "bundle-dev": "npm run bundle -- --sourcemap",
+    "bundle-watch": "npm run bundle -- --sourcemap --watch",
+    "test-compile": "tsc -p ./",
+    "compile": "npm run bundle"
+ },
  "contributes": {
   "configuration": {
    "type": "object",
@@ -56,6 +64,7 @@
   "vscode-languageclient": "^6.1.3"
  },
  "devDependencies": {
+  "esbuild": "0.12.21",
   "@types/node": "^10.1.4",
   "@types/vscode": "^1.35.0",
   "typescript": "^3.9.10",
