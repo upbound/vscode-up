@@ -4,6 +4,8 @@
 PROJECT_NAME := vscode-up
 PROJECT_REPO := github.com/upbound/$(PROJECT_NAME)
 
+-include build/makelib/common.mk
+
 # ====================================================================================
 # Targets
 
@@ -26,8 +28,8 @@ submodules:
 install: 
 	@yarn install
 
-build: install
-	@yarn tsc
+build.ext: install
+	@yarn compile
 
-package:
+package: build.ext
 	@yarn vsce package -o ./out/
