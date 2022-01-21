@@ -3,8 +3,8 @@
  "name": "up",
  "displayName": "Up",
  "preview": true,
- "publisher": "upbound",
- "version": "0.0.1-dev",
+ "publisher": "upboundio",
+ "version": "0.0.3",
  "description": "Crossplane package support for Visual Studio Code",
  "main": "./dist/extension.js",
  "repository": {
@@ -31,7 +31,8 @@
     "bundle-dev": "npm run bundle -- --sourcemap",
     "bundle-watch": "npm run bundle -- --sourcemap --watch",
     "test-compile": "tsc -p ./",
-    "compile": "npm run bundle"
+    "compile": "npm run bundle",
+    "deploy": "vsce publish --yarn"
  },
  "contributes": {
   "configuration": {
