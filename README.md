@@ -7,7 +7,7 @@ Welcome! 👋🏻<br/>
 Whether you are new to Crossplane package authoring or an experienced Crossplane 
 operator, we hope this extension enhances your development experience.
 
-* **Step 1.** If you haven't done so already, install the latest version of [Up](https://github.com/upbound/up)
+* **Step 1.** If you haven't done so already, install the latest version of [Up]
   and the [VS Code Up extension].
   * [Managing extensions in VS Code].
 * **Step 2.** To activate the extension, open any directory or workspace
@@ -68,5 +68,6 @@ See [CONTRIBUTING.md]
 [LICENSE]: LICENSE
 [Managing extensions in VS Code]: https://code.visualstudio.com/docs/editor/extension-gallery
 [Slack]: https://crossplane.slack.com/messages/upbound/
-[VS Code Up extension]: tbd
+[Up]: https://github.com/upbound/up
+[VS Code Up extension]: https://marketplace.visualstudio.com/items?itemName=Upboundio.up
 [`xpls`]: https://github.com/upbound/up
