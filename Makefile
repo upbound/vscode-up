@@ -32,4 +32,5 @@ build.ext: install
 	@yarn compile
 
 package: build.ext
+	@mkdir -p ./out
 	@yarn vsce package -o ./out/
