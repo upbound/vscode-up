@@ -4,7 +4,7 @@
  "displayName": "Up",
  "preview": true,
  "publisher": "upboundio",
- "version": "0.0.4",
+ "version": "0.0.5",
  "description": "Crossplane package support for Visual Studio Code",
  "main": "./dist/extension.js",
  "repository": {
@@ -15,7 +15,9 @@
   "url": "https://github.com/upbound/vscode-up/issues"
  },
  "activationEvents": [
-  "onLanguage:yaml"
+   "workspaceContains:crossplane.yaml",
+   "workspaceContains:*/crossplane.yaml",
+   "workspaceContains:*/*/crossplane.yaml"
  ],
  "engines": {
   "vscode": "^1.52.0"

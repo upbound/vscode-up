@@ -11,7 +11,7 @@ operator, we hope this extension enhances your development experience.
   and the [VS Code Up extension].
   * [Managing extensions in VS Code].
 * **Step 2.** To activate the extension, open any directory or workspace
-  containing a Crossplane package.
+  containing a Crossplane package (i.e. one that contains a `crossplane.yaml`).
 
 
 ## Features
