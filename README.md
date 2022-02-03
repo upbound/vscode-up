@@ -49,6 +49,18 @@ below:
 <em>(Composed resource schema validation)</em>
 </p>
 
+<p align=center>
+<img src="media/composition_patches_validation.gif" width=75%>
+<br/>
+<em>(Composed resource schema validation with patched details)</em>
+</p>
+
+<p align=center>
+<img src="media/openapiv3schema_validation.gif" width=75%>
+<br/>
+<em>(XRD openAPIv3Schema validation)</em>
+</p>
+
 ## Ask for help
 If you run into a problem please reach out to us
 by [filing an issue],
