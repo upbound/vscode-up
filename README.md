@@ -81,5 +81,5 @@ See [CONTRIBUTING.md]
 [Managing extensions in VS Code]: https://code.visualstudio.com/docs/editor/extension-gallery
 [Slack]: https://crossplane.slack.com/messages/upbound/
 [Up]: https://github.com/upbound/up
-[VS Code Up extension]: https://marketplace.visualstudio.com/items?itemName=Upboundio.up
+[VS Code Up extension]: https://marketplace.visualstudio.com/items?itemName=Upboundio.upbound
 [`xpls`]: https://github.com/upbound/up
