@@ -9,6 +9,8 @@ operator, we hope this extension enhances your development experience.
 
 * **Step 1.** If you haven't done so already, install the latest version of [Up]
   and the [VS Code Up extension].
+  * If you currently have `up` installed, make sure you are using at least version `v0.8.0`.
+    * You can check your version by running `up --version`.
   * [Managing extensions in VS Code].
 * **Step 2.** To activate the extension, open any directory or workspace
   containing a Crossplane package (i.e. one that contains a `crossplane.yaml`).
