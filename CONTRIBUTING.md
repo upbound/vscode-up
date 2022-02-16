@@ -11,7 +11,7 @@ details how contributors are expected to conduct themselves as part of the
 Crossplane community.
 
 ## Contributing Code
-To contribute bug fixes or features to Crossplane:
+To contribute bug fixes or features to vscode-up:
 
 1. Communicate your intent.
 1. Make your changes.
@@ -19,14 +19,14 @@ To contribute bug fixes or features to Crossplane:
 1. Update documentation and examples where appropriate.
 1. Open a Pull Request (PR).
 
-Communicating your intent lets the Crossplane maintainers know that you intend
+Communicating your intent lets the Upbound maintainers know that you intend
 to contribute, and how. This sets you up for success - you can avoid duplicating
 an effort that may already be underway, adding a feature that may be rejected,
 or heading down a path that you would be steered away from at review time. The
 best way to communicate your intent is via a detailed GitHub issue. Take a look
 first to see if there's already an issue relating to the thing you'd like to
 contribute. If there isn't, please raise a new one! Let us know what you'd like
-to work on, and why. The Crossplane maintainers can't always triage new issues
+to work on, and why. The Upbound maintainers can't always triage new issues
 immediately, but we encourage you to bring them to our attention via [Slack].
 
 Be sure to practice [good git commit hygiene] as you make your changes. All but
