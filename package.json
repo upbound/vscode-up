@@ -4,7 +4,7 @@
  "displayName": "Upbound",
  "preview": true,
  "publisher": "upboundio",
- "version": "0.0.3",
+ "version": "0.0.4",
  "description": "Crossplane package support for Visual Studio Code",
  "main": "./dist/extension.js",
  "repository": {
@@ -15,9 +15,9 @@
   "url": "https://github.com/upbound/vscode-up/issues"
  },
  "activationEvents": [
-   "workspaceContains:crossplane.yaml",
-   "workspaceContains:*/crossplane.yaml",
-   "workspaceContains:*/*/crossplane.yaml"
+  "workspaceContains:crossplane.yaml",
+  "workspaceContains:*/crossplane.yaml",
+  "workspaceContains:*/*/crossplane.yaml"
  ],
  "engines": {
   "vscode": "^1.52.0"
@@ -28,13 +28,13 @@
   "Formatters"
  ],
  "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "bundle": "esbuild extension.ts --bundle --outdir=dist --external:vscode --format=cjs --platform=node",
-    "bundle-dev": "npm run bundle -- --sourcemap",
-    "bundle-watch": "npm run bundle -- --sourcemap --watch",
-    "test-compile": "tsc -p ./",
-    "compile": "npm run bundle",
-    "deploy": "vsce publish --yarn"
+  "vscode:prepublish": "npm run compile",
+  "bundle": "esbuild extension.ts --bundle --outdir=dist --external:vscode --format=cjs --platform=node",
+  "bundle-dev": "npm run bundle -- --sourcemap",
+  "bundle-watch": "npm run bundle -- --sourcemap --watch",
+  "test-compile": "tsc -p ./",
+  "compile": "npm run bundle",
+  "deploy": "vsce publish --yarn"
  },
  "contributes": {
   "configuration": {
@@ -67,11 +67,11 @@
   "vscode-languageclient": "^6.1.3"
  },
  "devDependencies": {
-  "esbuild": "0.12.21",
   "@types/node": "^10.1.4",
   "@types/vscode": "^1.35.0",
+  "esbuild": "0.12.21",
   "typescript": "^3.9.10",
-  "vsce": "^1.58.0",
+  "vsce": "^1.103.1",
   "vscode": "^1.1.35"
  }
 }
