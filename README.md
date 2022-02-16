@@ -76,7 +76,7 @@ See [CONTRIBUTING.md]
 [Apache 2.0 license](LICENSE)
 
 <!-- Named Links -->
-[CONTRIBUTING.md]: CONTRIBUTING.md
+[CONTRIBUTING.md]: https://github.com/upbound/vscode-up/blob/main/CONTRIBUTING.md
 [filing an issue]: https://github.com/upbound/vscode-up/issues/new/choose
 [starting a GitHub discussion]: https://github.com/upbound/vscode-up/discussions
 [LICENSE]: LICENSE
