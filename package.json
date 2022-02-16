@@ -4,7 +4,7 @@
  "displayName": "Upbound",
  "preview": true,
  "publisher": "upboundio",
- "version": "0.0.2",
+ "version": "0.0.3",
  "description": "Crossplane package support for Visual Studio Code",
  "main": "./dist/extension.js",
  "repository": {
