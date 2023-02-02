@@ -3,8 +3,6 @@ import * as child_process from 'child_process';
 import {
 	LanguageClient,
 	LanguageClientOptions,
-	ServerOptions,
-	Executable,
 } from 'vscode-languageclient';
 
 let client: LanguageClient;
@@ -36,12 +34,19 @@ export function deactivate(): Thenable<void> | undefined {
 }
 
 async function spawnServer(): Promise<child_process.ChildProcess> {
-	let serverProcess = child_process.spawn('up', ['xpls', 'serve', '--verbose'])
-	// let serverProcess = child_process.spawn('')
-    serverProcess.on('error', (err: { code?: string; message: string }) => {
+  let settings = getSettings()
+  let serverProcess = child_process.spawn(settings.upPath, ['xpls', 'serve', '--verbose'])
+	serverProcess.on('error', (err: { code?: string; message: string }) => {
 		window.showWarningMessage(
 			`Failed to spawn xpls: \`${err.message}\``
 		)
 	})
     return serverProcess
+}
+
+function getSettings(): {upPath: any} {
+	const configUpPath = workspace.getConfiguration().get('xpls.up.path');
+	return {
+		upPath: configUpPath ? configUpPath : "up"
+	}
 }
