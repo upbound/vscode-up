@@ -41,6 +41,12 @@
    "type": "object",
    "title": "xpls",
    "properties": {
+     "xpls.up.path": {
+       "scope": "workspace",
+       "type": "string",
+       "default": "up",
+       "description": "Path to the up CLI, requires a MANUAL WINDOW RELOAD to be effective."
+     },
     "xpls.maxNumberOfProblems": {
      "scope": "resource",
      "type": "number",
