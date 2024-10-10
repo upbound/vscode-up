@@ -15,13 +15,13 @@ jobs:
       with:
         node-version: 18.x
 
-    - run: npm install
+    - run: yarn install
 
 # We don't have any tests yet.
 #    - run: xvfb-run -a npm test
 
     - name: Publish
       if: success()
-      run: npm run deploy
+      run: yarn run deploy
       env:
         VSCE_PAT: ${{ secrets.VSCE_PAT }}
