@@ -82,6 +82,6 @@ See [CONTRIBUTING.md]
 [LICENSE]: LICENSE
 [Managing extensions in VS Code]: https://code.visualstudio.com/docs/editor/extension-gallery
 [Slack]: https://crossplane.slack.com/messages/upbound/
-[Up]: https://github.com/upbound/up
+[Up]: https://docs.upbound.io/manuals/cli/overview/
 [VS Code Up extension]: https://marketplace.visualstudio.com/items?itemName=Upboundio.upbound
-[`xpls`]: https://github.com/upbound/up
+[`xpls`]: https://docs.upbound.io/reference/cli-reference/#up-xpls
